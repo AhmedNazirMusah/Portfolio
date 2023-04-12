@@ -25,7 +25,7 @@ const Navbar = () => {
           {ShowModal && <MenuModal isOpen={isOpen} CloseMenuModal={CloseMenuModal} />}
           <li className="detailed-nav">
             <ul className="dnav-list">
-              <li><Link to="/projects"> Porfolio</Link></li>
+              <li><Link to="/projects"> Portfolio</Link></li>
               <li><Link to="/about"> About</Link></li>
               <li><Link to="/contact"> Contact</Link></li>
             </ul>
