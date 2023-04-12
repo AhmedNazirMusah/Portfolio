@@ -50,6 +50,10 @@ body {
   height: max-content;
 }
 
+.ing {
+  width: 100%;
+}
+
 .modal-holder .ing {
   width: 100%;
 }
@@ -125,7 +129,6 @@ nav {
 .section2 {
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
   align-items: baseline;
   background: #e5e5e5;
 }
@@ -194,7 +197,6 @@ form p {
 
 .projects p {
   font-weight: 400;
-  size: 15px;
   margin-top: 20px;
   margin-bottom: 12px;
 }
@@ -327,8 +329,9 @@ h4 {
   display: flex;
   background-color: #f7f7f9;
   border-radius: 8px;
-  padding: 9px 12px;
+  padding: 5px 3px;
   margin-bottom: 12px;
+  min-width: 52px;
   margin-right: auto;
 }
 
@@ -443,10 +446,6 @@ form button {
   display: flex;
   flex-direction: column;
 }
-.ing {
-  width: 100%;
-}
-
 
 @media screen and (min-width: 768px) {
   /** Desktop styling **/
@@ -459,7 +458,6 @@ form button {
     display: none;
   }
 
- 
   .menu-mobile {
     display: none;
   }
@@ -577,7 +575,7 @@ form button {
   }
 
   .p-img:hover {
-   transform: scale(1.07);
+    transform: scale(1.07);
   }
 
   form p:hover {
