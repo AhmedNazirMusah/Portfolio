@@ -5,6 +5,10 @@ body {
   margin: 0;
 }
 
+li {
+  list-style: none;
+}
+
 .skills {
   gap: 10px;
   display: flex;
@@ -14,10 +18,10 @@ body {
 
 .skills li {
   background: #dee6f2;
-    border-radius: 10px;
-    padding: 10px;
-    font-weight: 600;
-    color: #493b3b;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+  color: #493b3b;
 }
 
 .media-links {
@@ -91,10 +95,6 @@ body {
 
 .close-btn img:hover {
   color: #6070ff;
-}
-
-li {
-  list-style: none;
 }
 
 .p-img {
