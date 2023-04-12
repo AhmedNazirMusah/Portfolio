@@ -23,7 +23,7 @@ const About = () => (
             <br />
             Myself
           </h1>
-          <p className="about-text">Hello I&apos;m Ahmed Nazir, I have been collaborating and working remotely for the past ten months with other professional developers worldwide, which makes me a perfect fit for your search for an experienced remote developer with a passion for building web applications.I&apos;d love to schedule a brief Zoom call to discuss any follow-up questions. Kindly reply with a day and time that is convenient for you. Thank you.</p>
+          <p className="about-text">Hello I&apos;m Ahmed Nazir, I have been collaborating and working remotely for the past ten months with other professional developers worldwide, which makes me a perfect fit for your search for an experienced remote developer with a passion for building web applications. I&apos;d love to schedule a brief Zoom call to discuss any follow-up questions. Kindly reply with a day and time that is convenient for you. Thank you.</p>
           <p className="connect">Let&apos;s Connect</p>
           <ul className="socialmeadia-container">
             <li className="icons"><a href="https://www.linkedin.com/in/ahmednazirmusah/"><GrLinkedin className="media-links" alt="linkedin" /></a></li>
@@ -94,6 +94,16 @@ const About = () => (
               <SiJest className="p-img" />
               Jest
             </li>
+          </ul>
+          <span>Skills</span>
+          <ul className="skills">
+            <li>Pair Programming</li>
+            <li>Kanban</li>
+            <li>Test Driven Development</li>
+            <li>Project Management</li>
+            <li>Teamwork</li>
+            <li>Communication</li>
+            <li>Mentoring</li>
           </ul>
         </div>
       </div>
