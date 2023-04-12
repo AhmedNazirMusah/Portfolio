@@ -47,12 +47,15 @@
   align-items: center;
 }
 
-.menu-mobile ul li {
+.m-links {
   margin: 10px;
-  font-size: 24px;
-}
-
-.menu-mobile ul li:hover {
-  color: #444;
-  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  width: 80%;
+  background-color: lightgreen;
+  padding: 10px;
+  color: black;
+  font-weight: 700;
+  font-size: larger;
+  border-radius: 10px;
 }
