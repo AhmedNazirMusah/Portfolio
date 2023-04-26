@@ -70,7 +70,8 @@ li {
 }
 
 .ing {
-  width: 100%;
+  height: auto;
+  width: 80%;
 }
 
 .modal-holder .ing {
@@ -247,7 +248,6 @@ h4 {
   border: 2px solid #7f8cff;
   border-radius: 10px;
   padding: 10px;
-  width: max-content;
   transition: 0.5s ease-in-out;
 }
 
@@ -261,7 +261,6 @@ h4 {
   display: flex;
   list-style: none;
   margin-top: 0;
-  margin-bottom: 24px;
 }
 
 .u-html li {
@@ -455,6 +454,11 @@ form button {
   font-size: 15px;
 }
 
+.detailed-info {
+  display: flex;
+  flex-direction: column;
+}
+
 .dnav-list a:hover {
   text-decoration: underline;
 }
@@ -470,6 +474,11 @@ form button {
   .welcome {
     padding-left: 130px;
     font-size: 18px;
+  }
+
+  .detailed-info {
+    display: flex;
+    flex-direction: row;
   }
 
   .modal {
