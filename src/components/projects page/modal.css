@@ -19,17 +19,15 @@
   text-decoration: none;
 }
 
-.detailed-info {
-  display: flex;
-}
-
 .project-modal .modal-content {
+  padding: 15px;
   background-color: #fefefe;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  max-width: 700px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  max-height: 100vh;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add overcast shadow */
   border-radius: 5px;
 }
@@ -38,7 +36,13 @@
   margin-top: 0;
 }
 
+.image-div {
+  display: flex;
+  justify-content: center;
+}
+
 .project-modal .modal-content p {
+  max-width: 500px;
   margin-bottom: 20px;
 }
 

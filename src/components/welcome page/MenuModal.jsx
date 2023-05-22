@@ -8,7 +8,7 @@ const MenuModal = ({ CloseMenuModal }) => (
     <div className="modal-content">
       <ul>
         <button type="button" className="close" onClick={CloseMenuModal}>&times;</button>
-        <Link className="m-links" to="/">Home</Link>
+        <Link className="m-links" onClick={CloseMenuModal} to="/">Home</Link>
         <Link className="m-links" onClick={CloseMenuModal} to="/projects"> Porfolio</Link>
         <Link className="m-links" onClick={CloseMenuModal} to="/about"> About</Link>
         <Link className="m-links" onClick={CloseMenuModal} to="/contact"> Contact</Link>

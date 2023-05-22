@@ -21,7 +21,7 @@ function Modal({ project, handleCloseModal }) {
             {project.feature[2]}
           </h5>
         </div>
-        <img src={project.cardImage} alt="snaphot" className="ing" />
+        <div className="image-div"><img src={project.cardImage} alt="snaphot" className="ing" /></div>
         <div className="detailed-info">
           <p>{project.long}</p>
           <div>

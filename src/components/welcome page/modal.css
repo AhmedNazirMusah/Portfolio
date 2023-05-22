@@ -10,18 +10,6 @@
   background-color: rgba(80, 171, 245, 0.655);
 }
 
-/* Modal content */
-.modal-content {
-  background-color: #eaf3f3;
-  margin: 10% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  max-width: 500px;
-  border-radius: 5px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
-
 /* Close button */
 .close {
   align-self: end;
